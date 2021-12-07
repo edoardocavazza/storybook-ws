@@ -1,6 +1,6 @@
 :host {
   display: block;
-  color: var(--primary-color);
+  color: blue;
 }
 
 [role='checkbox'] {
@@ -8,8 +8,7 @@
   max-width: 2em;
   min-width: 3em;
   height: 1em;
-  border-color: red;
-  border: solid 1px currentColor;
+  border: solid 1px red;
 }
 
 [role='checkbox'][aria-checked='true']::before {
