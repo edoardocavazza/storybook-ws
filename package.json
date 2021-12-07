@@ -1,0 +1,58 @@
+{
+  "name": "ds1",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.cjs.js",
+  "module": "dist/custom-elements/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/custom-elements/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/ds1/ds1.esm.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@stencil/core": "^2.7.0",
+    "@stencil/eslint-plugin": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-a11y": "^6.4.8",
+    "@storybook/addon-actions": "^6.4.8",
+    "@storybook/addon-essentials": "^6.4.8",
+    "@storybook/addon-links": "^6.4.8",
+    "@storybook/web-components": "^6.4.8",
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "babel-loader": "^8.2.3",
+    "chromatic": "^6.1.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "lit-html": "^2.0.2",
+    "puppeteer": "^10.0.0",
+    "storybook-addons-abstract": "^6.2.1",
+    "storybook-design-token": "^1.4.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-value-no-unknown-custom-properties": "^3.0.0",
+    "typescript": "^4.5.2"
+  },
+  "license": "MIT"
+}

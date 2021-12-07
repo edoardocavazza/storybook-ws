@@ -1,0 +1,47 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "ds1-list",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": []
+    },
+    {
+      "name": "ds1-listitem",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": [
+        {
+          "name": "checked",
+          "description": "The checked state of the component."
+        }
+      ]
+    },
+    {
+      "name": "my-component",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": [
+        {
+          "name": "first",
+          "description": "The first name"
+        },
+        {
+          "name": "last",
+          "description": "The last name"
+        },
+        {
+          "name": "middle",
+          "description": "The middle name"
+        }
+      ]
+    }
+  ]
+}
